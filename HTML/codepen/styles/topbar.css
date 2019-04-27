@@ -1,0 +1,87 @@
+/* Common nav styles */
+.navigation-wrapper {
+    width: 100%;
+    background-color: #060606;
+    color: #cbcbcb;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    padding: 25px 0px 25px 0px;
+}
+
+/* Left Column Styles */
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .logo {
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .left-column > .logo img {
+    width: 150px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+/* Center Column */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    width: 500px;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.links-wrapper > .nav-link a {
+    font-family: 'Lato', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+}
+
+.links-wrapper > .nav-link-a a {
+    font-family: 'Lato', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+}
+
+.links-wrapper > .nav-link-a a > .color {color: #cea135;}
+
+/* Right-column */
+.navigation-wrapper > .right-column {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+    margin-right: 50px;
+}
+
+.right-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.right-column > .button-block-icon {
+    font-size: 2em;
+}
+
+
+

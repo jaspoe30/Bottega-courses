@@ -1,0 +1,48 @@
+html, body { 
+    min-height: 100%;
+    margin:0; 
+}
+
+.center-section > .main-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.center-section > .main-section {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    background: rgb(96,96,96);
+    background: linear-gradient(90deg, rgba(96,96,96,1) 0%, rgba(65,63,63,1) 20%, rgba(0,0,0,1) 56%);}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-section > .console img {
+    width: 100%;
+    margin-top: 100vh;
+    margin: auto;
+    padding: 10px 15px;
+}
+
+.center-section > .main-section > .codepen-about {
+    font-family: 'Lato', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    font-weight: 150;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.center-section > .main-section > .buttonmisc {
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+}

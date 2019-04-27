@@ -1,0 +1,30 @@
+$white: #ffffff;
+$master-site-color: orange;
+
+body {
+  background-color: $white;
+  height: 100vh;
+  height: 100vw;
+}
+
+.container {
+  font-family: Verdana;
+  font-size: 0.8rem;
+}
+
+.page-wrapper { 
+  padding: 21px;
+
+  .featured {
+    color: $master-site-color;
+  }
+
+  .page-content {
+    background-color: $master-site-color;
+    padding: 42px;
+    color: $white;
+    .container {
+      font-family: courier;
+    }
+  }
+}

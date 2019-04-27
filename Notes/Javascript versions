@@ -1,0 +1,111 @@
+ECMAScript Editions
+Ver	Official Name	Description
+1	ECMAScript 1 (1997)	    First Edition.
+
+2	ECMAScript 2 (1998)	    Editorial changes only.
+
+3	ECMAScript 3 (1999)	    Added Regular Expressions.
+                            Added try/catch.
+
+4	ECMAScript 4	        Never released.
+
+5	ECMAScript 5 (2009)     Added "strict mode".
+                            Added JSON support.
+                            Added String.trim().
+                            Added Array.isArray().
+                            Added Array Iteration Methods.
+
+5.1	ECMAScript 5.1 (2011)	Editorial changes.
+
+6	ECMAScript 2015         Added let and const.
+                            Added default parameter values.
+                            Added Array.find().
+                            Added Array.findIndex().
+
+7	ECMAScript 2016	        Added exponential operator (**).
+                            Added Array.prototype.includes.
+
+8	ECMAScript 2017	        Added string padding.
+                            Added new Object properties.
+                            Added Async functions.
+                            Added Shared Memory.
+
+9	ECMAScript 2018	        Added rest / spread properties.
+                            Added Asynchronous iteration.
+                            Added Promise.finally().
+                            Additions to RegExp.
+
+
+Browser Support
+ECMAScript 3 is fully supported in all browsers.
+
+ECMAScript 5 is fully supported in all modern browsers.
+
+Browser Support for ES5 (2009)
+Browser	Version	From Date
+Chrome	23	Sep 2012
+Firefox	21	Apr 2013
+IE	9*	Mar 2011
+IE / Edge	10	Sep 2012
+Safari	6	Jul 2012
+Opera	15	Jul 2013
+* Internet Explorer 9 does not support ECMAScript 5 "use strict".
+
+Browser Support for ES6 (ECMAScript 2015)
+Browser	Version	Date
+Chrome	58	Apr 2017
+Firefox	54	Jun 2017
+Edge	14	Aug 2016
+Safari	10	Sep 2016
+Opera	55	Aug 2017
+Internet Explorer does not support ECMAScript 2015.
+
+Browser Support for ES7 (ECMAScript 2016)
+Browser	Version	Date
+Chrome	68	May 2018
+Opera	47	Jul 2018
+JavaScript / ECMAScript
+
+JavaScript was developed for Netscape. Netscape 2 was the first browser to run JavaScript.
+After Netscape the Mozilla foundation continued to develop JavaScript for the Firefox browser.
+The latest JavaScript version was 1.8.5. (Identical to ECMAScript 5).
+ECMAScript was developed by ECMA International after the organization adopted JavaScript.
+The first edition of ECMAScript was released in 1997.
+This list compares the version numbers of the different products:
+
+Year	JavaScript	        ECMA	        Browser
+1996	1.0		                            Netscape 2
+1997	 	                ECMAScript 1	IE 4
+1998	1.3	 	                            Netscape 4
+1999	 	                ECMAScript 2	IE 5
+2000	 	                ECMAScript 3	IE 5.5
+2000	1.5	 	                            Netscape 6
+2000	1.5	 	                            Firefox 1
+2011	 	                ECMAScript 5	IE 9 (Except "use strict")
+2011	1.8.5		                        Firefox 4 (Except leading zeroes in parseInt)
+2012	 		                            IE 10
+2012	 	 	                            Chrome 23
+2012	 	 	                            Safari 6
+2013	 	 	                            Firefox 21
+2013	 	 	                            Opera 15
+2015	 	                ECMAScript 2015	Partially Supported in all Browser
+IE 4 was the first browser to support ECMAScript 1 (1997).
+IE 5 was the first browser to support ECMAScript 2 (1999).
+IE 5.5 was the first browser to support ECMAScript 3 (2000).%
+IE 9* was the first browser to support ECMAScript 5 (2011).
+
+Learning a new program language
+Watch a full tutorial series on the language, when I’m watching I don’t try to follow along, 
+I simply watch what the instructor does in the demos so I can get a high level view of the language syntax and flow.
+
+Create a hello world application, I’ll incorporate a few basics, such as running a loop, creating and instantiating a class, 
+and any other high level concepts I remember from the tutorial.
+
+Pick out a sorting algorithm and implement it in the language. 
+It’s fine if the sorting algorithm is a basic one like selection or bubble sort. 
+Sorting algorithms force you to use: data structures, loops, variables, and functions. Combining each of these elements will give you a good handle on how the language works.
+
+Go through an advanced tutorial on the language and this time follow along and build the programs with the instructor.
+
+Go through coding interview questions for the language. 
+Being able to confidently answer these questions will give you a good idea if you have a solid understanding of the language.

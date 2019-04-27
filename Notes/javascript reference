@@ -1,0 +1,121 @@
+variable - stores data / ex. - var name = Kristine; (The name Kristine is stored in the variable) - var is a type of variable that you can change
+
+let - stores data / ex. let name = Kristine; - let is a type of variable that you can't want to change - data has already been declared if try to change
+
+console.log() - prints the result of a variable or let to the console - ex. console.log(name);
+
+hoisting - Best practice is to declare your variables at the top. 
+           Hoisting tries to find every spot where a variable is and loads it at the top unless it has already been declared.
+
+comments - // will comment out one line of code /**/ will comment out blocks of code
+
+variable data types: These are primitive values
+    boolean (true,false) 
+    null (absence of value)
+    undefined (something is declared but not given a value)
+    number (12) does not need quotes
+    string (Kristine) - needs quotes
+    symbol ('example') - used primarily for working with objects. Cannot be changed, similar to strings
+
+Objects -   An object method is an object property containing a function definition. Objects are variables too but can be changed.
+            JavaScript objects are containers for named values, called properties and methods. In JavaScript, almost "everything" is an object.
+            Spaces and line breaks are not important. An object definition can span multiple lines.
+            Booleans can be objects (if defined with the (new) keyword)
+            Numbers can be objects (if defined with the (new) keyword)
+            Strings can be objects (if defined with the (new) keyword)
+            Dates are always objects
+            Maths are always objects
+            Regular expressions are always objects
+            Arrays are always objects
+            Functions are always objects
+            Objects are always objects
+            Objects can contain many values ex. - var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+typeof - Checks to see what type of data is being presented - eg. typeof 12; returns "number" or typeof "Hello World"; returns "string"
+
+typecasting - Change from one data type to another. Three type casts are available in JavaScript:
+                Boolean(value) – casts the given value as a Boolean
+                Number(value) – casts the given value as a number (either integer or floating-point)
+                String(value) – casts the given value a string
+                Example - var ageOne = 12; to convert to string - String(ageOne); converts 12 to a string
+                parseInt example = parseInt(ageOne) returns 12 - parsefloat example = will return a decimal
+                unary operator - unary plus (+), unary minus (-), prefix / postfix increments (++), prefix / postfix decrements (–). a way of converting a string into a number
+
+String Functions - Call functions on strings in order to perform tasks such as searching for values, finding a character's index, etc
+                    str.length; / str.charAt(put number in); / str.concat(' again and again'); / str.includes('quick'); / str.endsWith('dog'); / str.startsWith('Foo');
+                    str.repeat(5); / str.match(); / str.replace('fox', 'wolf'); / str.indexOf('jumped'); / str.lastIndexOf('jumped'); / str.slice(10); / str.slice(-8);
+                    str.slice(4, 10).trim(); (trim removes unwanted strings) / str.toUpperCase(); / str.toLowerCase(); / 
+
+Arithmetic Operators -  2 + 2; // 4 
+                        2 - 2; // 0
+                        2 / 2; // 1
+                        2 * 10; // 20
+                        5 % 2; // 1
+                        2 ** 10; // 1024
+                        num++; // 2 
+                        ++num; // 4
+                        num; // 4
+                        num--; // 4
+                        num; // 3
+                        --num; // 2
+                    var someNum = 10;
+                        var someOtherNum = -someNum;
+                        someOtherNum; // -10
+                    var strNum = '100';
+                        var convertedNum = + strNum;
+                        convertedNum; // 100
+
+Compound Assignment -   var name = 'Tiffany';
+                        var sum = 0;
+                        var gradeOne = 100;   
+                        var gradeTwo = 80;
+                        sum += gradeOne; // 100
+                        sum; // 100
+                        sum += gradeTwo; // 180
+                        sum *= gradeTwo; // 14400
+
+Order of Operations - PEDMAS (Paranthesis, Exponents, Multiplication, Division, Addition, Subtraction) - reads right to left
+
+Using Conditionals - Conditionals give us the ability to look at either a couple of values or even multiple ones. 
+                    Three, four, or five depending on what you need to check against and see how they are related to each other. 
+                    We can see if they're equal to each other if one is greater than the other.
+                    We can check to see if they are explicitly not equal to each other and then we also in javascript have the 
+                    ability to check to see if they are of the same type as well.
+                        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
+If/Else statments - If a condition meets a variable else go on to next variable 
+                        if (age <= 10) {
+                            console.log('You can eat from the kid menu');
+                        } else {
+                            console.log('Adult menu time for you');
+                        }
+
+Compound Conditionals - they are used in multiple scenarions
+                        var age = 30;
+                        if (age <= 10) {
+                        } else if (age >= 16 && age < 25) {
+                        } else if (age >= 25) {
+                        }
+
+Switch statements - A case statement gives you the ability to build your own scenarios
+                        switch (typeof dataPoint) {
+                            case "string":
+                            break;
+                            case "number":
+                            break;
+                            case "boolean":
+                            break;
+                            default:
+                        }
+
+Ternary Operator - The only JavaScript operator that takes three operands. This operator is frequently used as a shortcut for the if statement. Held within curly brackets
+                    ex - 3 part Conditional ---> age > 25 (no need for if) - statement - statement
+                    ? - accesses statement / : - takes place of else statement
+
+JavaScript functions - it takes in some kind of value and then it returns a different value.
+
+Variable scope - JavaScript has two scopes – global and local. Any variable declared outside of a function belongs to the global scope, and is therefore accessible from anywhere in your code. 
+                 Each function has its own scope, and any variable declared within that function is only accessible from that function and any nested functions.
+
+
+
