@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nav Bar test</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  
+  body {
+    font-family: 'Oswald', sans-serif;
+    background-color: cadetblue;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .container {
+    float: left;
+    display: flex;
+    justify-content: left;
+    background-color: azure;
+    width: 100vw;
+  }
+
+  .container a {
+    float: left;
+    display: block;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;  
+    }
+
+  .container a:hover {
+    background-color: cornflowerblue;
+    color: white;
+  }
+
+  .container .icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+  .container a:not(:first-child) {display: none;}
+  .container a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+  @media screen and (max-width: 600px) {
+    .container.responsive {position: relative;}
+    .container.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .container.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  </style>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("topbar");
+      if (x.className === "container") {
+        x.className += " responsive";
+      } else {
+        x.className = "container";
+      }
+    }
+  </script>
+  
+</head>
+
+<body>
+  <div class="container" id="topbar">
+    <div class="javacode">
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+  </a>
+    </div>
+  <div class="linkcontainer1">
+    <div class="homelink">
+      <a href="#">Home</a>
+    </div>
+  </div>
+  <div class="linkcontainer2">
+    <div class="contactlink">
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <div class="linkcontainer3">
+    <div class="aboutlink">
+      <a href="#">About</a>
+    </div>
+  </div>
+  <div class="linkcontainer4">
+    <div class="statuslink">
+      <a href="#">Status</a>
+  </div>
+  </div>
+</body>
+</html>
