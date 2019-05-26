@@ -1,8 +1,4 @@
-username = ''
-email = 'jon@snow.com'
-password = 'thenorth'
+list_to_remove = ['<h1>', 'some_content', 'more_content', '</h1>']
 
-if (username == 'jonsnow' or email == 'jon@snow.com') and password == 'thenorth':
-    print('Access permitted')
-else:
-    print('You shall not pass')
+new_list = list_to_remove[1:3:]
+print(new_list)
