@@ -1,23 +1,24 @@
-class Html:
+class Heading:
     def __init__(self, content):
         self.content = content
-    
-    def render(self):
-        raise NotImplementedError('Subclass must implement render method')
 
-class Heading(Html):
     def render(self):
         return f'<h1>{self.content}</h1>'
 
-class Div(Html):
+class Div:
+    def __init__(self, content):
+        self.content = content
+
     def render(self):
         return f'<div>{self.content}</div>'
 
-tags = [
-        Div('Some content'),
-        Heading('Some big Heading'),
-        Div('Another div')
-        ]
+div_one = Div('Some content')
+heading = Heading('Some big Heading')
+div_two = Div('Another div')
 
-for tag in tags:
-    print(tag.render())
+def html_render(tag_object):
+    print(tag_object.render())
+
+html_render(div_one)
+html_render(div_two)
+html_render(heading)
