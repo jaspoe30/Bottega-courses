@@ -1,0 +1,38 @@
+.button {
+    background: #4f4297;
+    outline: solid 2px #804611;
+    border: solid 2px rgb(14, 13, 13);
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .ul li {
+    display: inline;
+    margin-right: 8px;
+  }
+  .ul {
+    display: none;
+  }
+  .table {
+  	margin-left: 90px;
+    margin-top: 50px;
+    border: 10px solid rgb(36, 100, 109);
+    width: 38%;
+  }
+  .table th {
+    padding-top: 20px;
+    text-align: left;
+    font-size: 24px;
+    margin: 30px;
+  }
+  .table tr,
+  td {
+    text-align: center;
+    padding-left: 75px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px
+  }
