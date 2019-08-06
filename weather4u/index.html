@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Weather 4 U</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="contain">
+    <form>
+      <input type="text" pattern="[0-9]{5}" title="5 digit zip code" placeholder="Enter 5 digit zip code">
+    </form>
+    <div class="loader"></div>
+    <div id="currentLocation"></div>
+    <div id="currentDesc"></div>
+    <div id="currentHumidity"></div>
+    <img id="currentIcon" src=""><br>
+    <span id="currentTemp"></span>
+  </div>
+
+  <div class="container">
+    <div class="contain1">
+      <div id="oneDay"></div>
+      <img id="oneIcon">
+      <div id="oneTemp"></div>
+      <div id="oneDesc"></div>
+    </div>
+    <div class="contain1">
+      <div id="twoDay"></div>
+      <img id="twoIcon">
+      <div id="twoTemp"></div>
+      <div id="twoDesc"></div>
+    </div>
+    <div class="contain1">
+      <div id="threeDay"></div>
+      <img id="threeIcon">
+      <div id="threeTemp"></div>
+      <div id="threeDesc"></div>
+    </div>
+    <div class="contain1">
+      <div id="fourDay"></div>
+      <img id="fourIcon">
+      <div id="fourTemp"></div>
+      <div id="fourDesc"></div>
+    </div>
+    <div class="contain1">
+      <div id="fiveDay"></div>
+      <img id="fiveIcon">
+      <div id="fiveTemp"></div>
+      <div id="fiveDesc"></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+<html>
