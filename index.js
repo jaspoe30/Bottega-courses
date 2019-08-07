@@ -22,6 +22,9 @@ let body = document.querySelector("body");
 
 let city = "66901";
 
+var firebase = require('firebase');
+var firebaseui = require('firebaseui');
+
 document.querySelector("form").addEventListener("submit", function(e) {
   e.preventDefault();
   city = document.querySelector("input").value;
