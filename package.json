@@ -45,6 +45,7 @@
     "babel-polyfill": "^6.23.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.1.18",
+    "bootstrap": "file:the_weather/bootstrap",
     "clean-webpack-plugin": "^0.1.16",
     "copy-webpack-plugin": "^4.5.2",
     "cross-env": "^5.2.0",
@@ -58,6 +59,7 @@
     "html-webpack-plugin": "^3.2.0",
     "moment": "^2.24.0",
     "pil": "^0.1.1",
+    "source": "0.0.3",
     "url-loader": "^1.0.1",
     "webpack-cli": "^3.1.0",
     "webpack-merge": "^4.1.0"

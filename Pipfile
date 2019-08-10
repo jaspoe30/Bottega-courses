@@ -1,20 +1,11 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.org/simple"
+url = "https://pypi.python.org/simple"
 verify_ssl = true
 
-[dev-packages]
-pytest = "*"
-
 [packages]
-numpy = "*"
-requests = "*"
-flask = "*"
-flask-sqlalchemy = "*"
-flask-marshmallow = "*"
-marshmallow-sqlalchemy = "*"
-os = "*"
 django = "*"
+requests = "*"
+models = "*"
 
-[requires]
-python_version = "3.7"
+[dev-packages]
