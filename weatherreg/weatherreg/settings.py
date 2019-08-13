@@ -25,7 +25,7 @@ SECRET_KEY = 'l5fqe6^wb2)t@os^i-bw&w27+m%5^(%nw=v-2ke@dl-l*b3^w3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['weatherreg.herokuapp.com']
+ALLOWED_HOSTS = ['weatherreg.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "crispy_forms",
     'accounts.apps.AccountsConfig',
 ]
 
@@ -70,6 +71,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'weatherreg.wsgi.application'
+
+CRISPY_TEMPLATE_PACK="bootstrap4"
 
 
 # Database
