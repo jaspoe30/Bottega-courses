@@ -4,9 +4,17 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
-    <form method="POST" class="form-group">
-	{% csrf_token %}
-	{{ form|crispy }}
-	<button type="submit" class="btn btn-primary">Register</button>
-    </form>
+<div class="container">
+	<div class="card-block ml-3 mr-3 shadow p-3 mx-auto">
+<form method="POST" class="form-group">
+		{% csrf_token %}
+		{{ form|crispy }}
+		<button type="submit" class="btn btn-primary ">Register</button>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</form>
 {% endblock %}
+
