@@ -1,5 +1,3 @@
-require 'rspec'
-
 module AddressFormatter
   def self.format(address_obj)
     str_address = <<~ADDRESS
